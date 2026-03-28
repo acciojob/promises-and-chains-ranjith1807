@@ -8,7 +8,7 @@ document.getElementById('voting-form').addEventListener('submit', function (even
 
   // 1. Validation: Check if either input is empty
   if (!ageInput || !nameInput) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return; // Stop execution here if validation fails
   }
 
